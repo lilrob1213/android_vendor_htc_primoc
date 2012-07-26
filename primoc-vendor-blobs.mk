@@ -27,7 +27,7 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/primoc/proprietary/bin/lsc_camera:/system/bin/lsc_camera \
 	vendor/htc/primoc/proprietary/bin/rmt_storage:/system/bin/rmt_storage \
 	vendor/htc/primoc/proprietary/bin/zcb:/system/bin/zcb \
-	vendor/htc/primoc/proprietary/etc/firmware/bcm4330.hcd:system/etc/firmware/bcm4330.hcd \
+	vendor/htc/primoc/proprietary/etc/firmware/bcm4330.hcd:system/vendor/firmware/bcm4330.hcd \
     vendor/htc/primoc/proprietary/etc/firmware/default.acdb:system/etc/firmware/default.acdb \
 	vendor/htc/primoc/proprietary/etc/firmware/default_org.acdb:system/etc/firmware/default_org.acdb \
 	vendor/htc/primoc/proprietary/etc/firmware/default_org_wb.acdb:system/etc/firmware/default_org_wb.acdb \
