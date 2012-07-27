@@ -71,6 +71,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/primoc/proprietary/etc/firmware/fw_bcm4330_p2p_b2.bin:system/etc/firmware/fw_bcm4330_p2p_b2.bin \
     vendor/htc/primoc/proprietary/etc/firmware/fw_bcm4330_p2p_b2.bin:system/vendor/firmware/fw_bcm4330_p2p_b2.bin \
     vendor/htc/primoc/proprietary/etc/firmware/fw_bcm4330_p2p_b1.bin:system/etc/firmware/fw_bcm4330_p2p_b1.bin \
+	vendor/htc/primoc/proprietary/etc/calibration:system/etc/calibration \
     vendor/htc/primoc/proprietary/etc/firmware/fw_bcm4330_p2p_b1.bin:system/vendor/firmware/fw_bcm4330_p2p_b1.bin
 	
 # HW files
@@ -141,6 +142,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/primoc/proprietary/lib/libOpenVG.so:/system/lib/libOpenVG.so \
     vendor/htc/primoc/proprietary/lib/libposteffect.so:/system/lib/libposteffect.so \
     vendor/htc/primoc/proprietary/lib/libsc-a2xx.so:/system/lib/libsc-a2xx.so \
+    vendor/htc/primoc/proprietary/lib/libhardware_legacy.so:/system/lib/libhardware_legacy.so \
     vendor/htc/primoc/proprietary/lib/libv8.so:system/lib/libv8.so
 	
 	
