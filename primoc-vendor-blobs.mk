@@ -30,8 +30,11 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/primoc/proprietary/etc/firmware/bcm4330.hcd:system/vendor/firmware/bcm4330.hcd \
 	vendor/htc/primoc/proprietary/etc/firmware/bcm4330.hcd:system/etc/firmware/bcm4330.hcd \
 	vendor/htc/primoc/proprietary/etc/firmware/fw_bcm4330_apsta_b2.bin:system/etc/firmware/fw_bcm4330_apsta_b2.bin \
+	vendor/htc/primoc/proprietary/etc/firmware/fw_bcm4330_apsta_b2.bin:system/vendor/firmware/fw_bcm4330_apsta_b2.bin \
 	vendor/htc/primoc/proprietary/etc/firmware/fw_bcm4330_b2.bin:system/etc/firmware/fw_bcm4330_b2.bin \
+	vendor/htc/primoc/proprietary/etc/firmware/fw_bcm4330_b2.bin:system/vendor/firmware/fw_bcm4330_b2.bin \
 	vendor/htc/primoc/proprietary/etc/firmware/fw_bcm4330_p2p_b2.bin:system/etc/firmware/fw_bcm4330_p2p_b2.bin \
+	vendor/htc/primoc/proprietary/etc/firmware/fw_bcm4330_p2p_b2.bin:system/vendor/firmware/fw_bcm4330_p2p_b2.bin \
     vendor/htc/primoc/proprietary/etc/firmware/default.acdb:system/etc/firmware/default.acdb \
 	vendor/htc/primoc/proprietary/etc/firmware/default_org.acdb:system/etc/firmware/default_org.acdb \
 	vendor/htc/primoc/proprietary/etc/firmware/default_org_wb.acdb:system/etc/firmware/default_org_wb.acdb \
