@@ -93,7 +93,15 @@ PRODUCT_COPY_FILES += \
     vendor/htc/primoc/proprietary/lib/libdsutils.so:/system/lib/libdsutils.so \
     vendor/htc/primoc/proprietary/lib/libqdp.so:/system/lib/libqdp.so \
     vendor/htc/primoc/proprietary/lib/libhtc_ril.so:/system/lib/libhtc_ril.so
-	
+
+# EGL
+PRODUCT_COPY_FILES += \
+    vendor/htc/primoc/proprietary/lib/egl/eglsubAndroid.so:/system/lib/egl/eglsubAndroid.so \
+	vendor/htc/primoc/proprietary/lib/egl/libEGL_adreno200.so:/system/lib/egl/libEGL_adreno200.so \
+	vendor/htc/primoc/proprietary/lib/egl/libGLESv1_CM_adreno200.so:/system/lib/egl/libGLESv1_CM_adreno200.so \
+	vendor/htc/primoc/proprietary/lib/egl/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
+	vendor/htc/primoc/proprietary/lib/egl/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so
+
 # Random Crap..Verify necessity 
 PRODUCT_COPY_FILES += \
     vendor/htc/primoc/proprietary/lib/libC2D2.so:/system/lib/libC2D2.so \
