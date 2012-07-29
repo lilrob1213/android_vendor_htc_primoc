@@ -97,7 +97,6 @@ PRODUCT_COPY_FILES += \
 # Random Crap..Verify necessity 
 PRODUCT_COPY_FILES += \
     vendor/htc/primoc/proprietary/lib/libC2D2.so:/system/lib/libC2D2.so \
-    vendor/htc/primoc/proprietary/lib/libDivxDrm.so:/system/lib/libDivxDrm.so \
     vendor/htc/primoc/proprietary/lib/libOpenVG.so:/system/lib/libOpenVG.so \
     vendor/htc/primoc/proprietary/lib/libgsl.so:/system/lib/libgsl.so \
     vendor/htc/primoc/proprietary/lib/libmm-color-convertor.so:/system/lib/libmm-color-convertor.so \
