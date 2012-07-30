@@ -58,6 +58,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/primoc/proprietary/lib/hw/audio.primary.msm7x30.so:system/lib/hw/audio.primary.msm7x30.so \
     vendor/htc/primoc/proprietary/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
     vendor/htc/primoc/proprietary/lib/hw/audio_policy.msm7x30.so:system/lib/hw/audio_policy.msm7x30.so \
+	vendor/htc/primoc/proprietary/lib/hw/hwcomposer.msm7x30.so:system/lib/hw/hwcomposer7x30.msm7x30.so \
     vendor/htc/primoc/proprietary/lib/hw/camera.default.so:system/lib/hw/camera.default.so
 	
 # EGL
