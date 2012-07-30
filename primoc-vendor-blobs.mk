@@ -22,6 +22,28 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/htc/primoc/proprietary/lib/libaudioalsa.so:/system/lib/libaudioalsa.so \
     vendor/htc/primoc/proprietary/lib/libhtc_acoustic.so:/system/lib/libhtc_acoustic.so \
+    vendor/htc/primoc/proprietary/etc/soundimage/Sound_Bass_Booster.txt:system/etc/soundimage/Sound_Bass_Booster.txt \
+    vendor/htc/primoc/proprietary/etc/soundimage/Sound_Blues.txt:system/etc/soundimage/Sound_Blues.txt \
+    vendor/htc/primoc/proprietary/etc/soundimage/Sound_Classical.txt:system/etc/soundimage/Sound_Classical.txt \
+    vendor/htc/primoc/proprietary/etc/soundimage/Sound_Country.txt:system/etc/soundimage/Sound_Country.txt \
+    vendor/htc/primoc/proprietary/etc/soundimage/Sound_Jazz.txt:system/etc/soundimage/Sound_Jazz.txt \
+    vendor/htc/primoc/proprietary/etc/soundimage/Sound_Latin.txt:system/etc/soundimage/Sound_Latin.txt \
+    vendor/htc/primoc/proprietary/etc/soundimage/Sound_New_Age.txt:system/etc/soundimage/Sound_New_Age.txt \
+    vendor/htc/primoc/proprietary/etc/soundimage/Sound_Original.txt:system/etc/soundimage/Sound_Original.txt \
+    vendor/htc/primoc/proprietary/etc/soundimage/Sound_Original_Recording.txt:system/etc/soundimage/Sound_Original_Recording.txt \
+    vendor/htc/primoc/proprietary/etc/soundimage/Sound_Original_SPK.txt:system/etc/soundimage/Sound_Original_SPK.txt \
+    vendor/htc/primoc/proprietary/etc/soundimage/Sound_Phone_Original_REC.txt:system/etc/soundimage/Sound_Phone_Original_REC.txt \
+    vendor/htc/primoc/proprietary/etc/soundimage/Sound_Piano.txt:system/etc/soundimage/Sound_Piano.txt \
+    vendor/htc/primoc/proprietary/etc/soundimage/Sound_Pop.txt:system/etc/soundimage/Sound_Pop.txt \
+    vendor/htc/primoc/proprietary/etc/soundimage/Sound_R_B.txt:system/etc/soundimage/Sound_R_B.txt \
+    vendor/htc/primoc/proprietary/etc/soundimage/Sound_Recording.txt:system/etc/soundimage/Sound_Recording.txt \
+    vendor/htc/primoc/proprietary/etc/soundimage/Sound_Rock.txt:system/etc/soundimage/Sound_Rock.txt \
+    vendor/htc/primoc/proprietary/etc/soundimage/Sound_SRS_A_HP.txt:system/etc/soundimage/Sound_SRS_A_HP.txt \
+    vendor/htc/primoc/proprietary/etc/soundimage/Sound_SRS_A_SPK.txt:system/etc/soundimage/Sound_SRS_A_SPK.txt \
+    vendor/htc/primoc/proprietary/etc/soundimage/Sound_SRS_V_HP.txt:system/etc/soundimage/Sound_SRS_V_HP.txt \
+    vendor/htc/primoc/proprietary/etc/soundimage/Sound_SRS_V_SPK.txt:system/etc/soundimage/Sound_SRS_V_SPK.txt \
+    vendor/htc/primoc/proprietary/etc/soundimage/Sound_Treble_Booster.txt:system/etc/soundimage/Sound_Treble_Booster.txt \
+    vendor/htc/primoc/proprietary/etc/soundimage/Sound_Vocal_Booster.txt:system/etc/soundimage/Sound_Vocal_Booster.txt \
     vendor/htc/primoc/proprietary/etc/AdieHWCodec.csv:system/etc/AdieHWCodec.csv \
     vendor/htc/primoc/proprietary/etc/AIC3254_REG.csv:system/etc/AIC3254_REG.csv \
     vendor/htc/primoc/proprietary/etc/AudioBTID.csv:system/etc/AudioBTID.csv \
@@ -59,6 +81,14 @@ PRODUCT_COPY_FILES += \
     vendor/htc/primoc/proprietary/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
     vendor/htc/primoc/proprietary/lib/hw/audio_policy.msm7x30.so:system/lib/hw/audio_policy.msm7x30.so \
     vendor/htc/primoc/proprietary/lib/hw/camera.default.so:system/lib/hw/camera.default.so
+	
+# EGL
+PRODUCT_COPY_FILES += \
+    vendor/htc/primoc/proprietary/lib/egl/eglsubAndroid.so:/system/lib/egl/eglsubAndroid.so \
+    vendor/htc/primoc/proprietary/lib/egl/libEGL_adreno200.so:/system/lib/egl/libEGL_adreno200.so \
+    vendor/htc/primoc/proprietary/lib/egl/libGLESv1_CM_adreno200.so:/system/lib/egl/libGLESv1_CM_adreno200.so \
+    vendor/htc/primoc/proprietary/lib/egl/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
+    vendor/htc/primoc/proprietary/lib/egl/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so
 
 # Camera
 PRODUCT_COPY_FILES += \
@@ -77,7 +107,11 @@ PRODUCT_COPY_FILES += \
     vendor/htc/primoc/proprietary/lib/libzoomTransition.so:system/lib/libzoomTransition.so \
     vendor/htc/primoc/proprietary/lib/libmmipl.so:/system/lib/libmmipl.so \
     vendor/htc/primoc/proprietary/lib/libmmjpeg.so:/system/lib/libmmjpeg.so \
+    vendor/htc/primoc/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/htc/primoc/proprietary/lib/libmmcamera_rawchipproc.so:system/lib/libmmcamera_rawchipproc.so \
+    vendor/htc/primoc/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
+    vendor/htc/primoc/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
+    vendor/htc/primoc/proprietary/lib/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so \
     vendor/htc/primoc/proprietary/bin/lsc_camera:/system/bin/lsc_camera \
     vendor/htc/primoc/proprietary/lib/liboemcamera.so:/system/lib/liboemcamera.so \
     vendor/htc/primoc/proprietary/lib/libmmparser_lite.so:system/lib/libmmparser_lite.so
@@ -117,10 +151,15 @@ PRODUCT_COPY_FILES += \
     vendor/htc/primoc/proprietary/bin/logcat2:/system/bin/logcat2 \
     vendor/htc/primoc/proprietary/bin/rmt_storage:/system/bin/rmt_storage \
     vendor/htc/primoc/proprietary/bin/zcb:/system/bin/zcb \
+    vendor/htc/primoc/proprietary/lib/libC2D2.so:/system/lib/libC2D2.so \
     vendor/htc/primoc/proprietary/lib/libgemini.so:/system/lib/libgemini.so \
+    vendor/htc/primoc/proprietary/lib/libgsl.so:/system/lib/libgsl.so \
     vendor/htc/primoc/proprietary/lib/libOlaEngine.so:system/lib/libOlaEngine.so \
+    vendor/htc/primoc/proprietary/lib/libOpenVG.so:/system/lib/libOpenVG.so \
     vendor/htc/primoc/proprietary/lib/libposteffect.so:/system/lib/libposteffect.so \
-    vendor/htc/primoc/proprietary/lib/libhardware_legacy.so:/system/lib/libhardware_legacy.so
+    vendor/htc/primoc/proprietary/lib/libsc-a2xx.so:/system/lib/libsc-a2xx.so \
+    vendor/htc/primoc/proprietary/lib/libhardware_legacy.so:/system/lib/libhardware_legacy.so \
+    vendor/htc/primoc/proprietary/lib/libv8.so:system/lib/libv8.so
 	
 	
     
