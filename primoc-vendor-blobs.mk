@@ -22,28 +22,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/htc/primoc/proprietary/lib/libaudioalsa.so:/system/lib/libaudioalsa.so \
     vendor/htc/primoc/proprietary/lib/libhtc_acoustic.so:/system/lib/libhtc_acoustic.so \
-    vendor/htc/primoc/proprietary/etc/soundimage/Sound_Bass_Booster.txt:system/etc/soundimage/Sound_Bass_Booster.txt \
-    vendor/htc/primoc/proprietary/etc/soundimage/Sound_Blues.txt:system/etc/soundimage/Sound_Blues.txt \
-    vendor/htc/primoc/proprietary/etc/soundimage/Sound_Classical.txt:system/etc/soundimage/Sound_Classical.txt \
-    vendor/htc/primoc/proprietary/etc/soundimage/Sound_Country.txt:system/etc/soundimage/Sound_Country.txt \
-    vendor/htc/primoc/proprietary/etc/soundimage/Sound_Jazz.txt:system/etc/soundimage/Sound_Jazz.txt \
-    vendor/htc/primoc/proprietary/etc/soundimage/Sound_Latin.txt:system/etc/soundimage/Sound_Latin.txt \
-    vendor/htc/primoc/proprietary/etc/soundimage/Sound_New_Age.txt:system/etc/soundimage/Sound_New_Age.txt \
-    vendor/htc/primoc/proprietary/etc/soundimage/Sound_Original.txt:system/etc/soundimage/Sound_Original.txt \
-    vendor/htc/primoc/proprietary/etc/soundimage/Sound_Original_Recording.txt:system/etc/soundimage/Sound_Original_Recording.txt \
-    vendor/htc/primoc/proprietary/etc/soundimage/Sound_Original_SPK.txt:system/etc/soundimage/Sound_Original_SPK.txt \
-    vendor/htc/primoc/proprietary/etc/soundimage/Sound_Phone_Original_REC.txt:system/etc/soundimage/Sound_Phone_Original_REC.txt \
-    vendor/htc/primoc/proprietary/etc/soundimage/Sound_Piano.txt:system/etc/soundimage/Sound_Piano.txt \
-    vendor/htc/primoc/proprietary/etc/soundimage/Sound_Pop.txt:system/etc/soundimage/Sound_Pop.txt \
-    vendor/htc/primoc/proprietary/etc/soundimage/Sound_R_B.txt:system/etc/soundimage/Sound_R_B.txt \
-    vendor/htc/primoc/proprietary/etc/soundimage/Sound_Recording.txt:system/etc/soundimage/Sound_Recording.txt \
-    vendor/htc/primoc/proprietary/etc/soundimage/Sound_Rock.txt:system/etc/soundimage/Sound_Rock.txt \
-    vendor/htc/primoc/proprietary/etc/soundimage/Sound_SRS_A_HP.txt:system/etc/soundimage/Sound_SRS_A_HP.txt \
-    vendor/htc/primoc/proprietary/etc/soundimage/Sound_SRS_A_SPK.txt:system/etc/soundimage/Sound_SRS_A_SPK.txt \
-    vendor/htc/primoc/proprietary/etc/soundimage/Sound_SRS_V_HP.txt:system/etc/soundimage/Sound_SRS_V_HP.txt \
-    vendor/htc/primoc/proprietary/etc/soundimage/Sound_SRS_V_SPK.txt:system/etc/soundimage/Sound_SRS_V_SPK.txt \
-    vendor/htc/primoc/proprietary/etc/soundimage/Sound_Treble_Booster.txt:system/etc/soundimage/Sound_Treble_Booster.txt \
-    vendor/htc/primoc/proprietary/etc/soundimage/Sound_Vocal_Booster.txt:system/etc/soundimage/Sound_Vocal_Booster.txt \
     vendor/htc/primoc/proprietary/etc/AdieHWCodec.csv:system/etc/AdieHWCodec.csv \
     vendor/htc/primoc/proprietary/etc/AIC3254_REG.csv:system/etc/AIC3254_REG.csv \
     vendor/htc/primoc/proprietary/etc/AudioBTID.csv:system/etc/AudioBTID.csv \
