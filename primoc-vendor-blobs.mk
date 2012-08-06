@@ -105,6 +105,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/primoc/proprietary/lib/libnetmgr.so:/system/lib/libnetmgr.so \
     vendor/htc/primoc/proprietary/lib/libdsutils.so:/system/lib/libdsutils.so \
     vendor/htc/primoc/proprietary/lib/libqdp.so:/system/lib/libqdp.so \
+	vendor/htc/primoc/proprietary/lib/libril.so:/system/lib/libril.so \
     vendor/htc/primoc/proprietary/lib/libhtc_ril.so:/system/lib/libhtc_ril.so
 
 # EGL
