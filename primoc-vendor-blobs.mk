@@ -120,23 +120,14 @@ PRODUCT_COPY_FILES += \
     vendor/htc/primoc/proprietary/lib/libC2D2.so:/system/lib/libC2D2.so \
     vendor/htc/primoc/proprietary/lib/libOpenVG.so:/system/lib/libOpenVG.so \
     vendor/htc/primoc/proprietary/lib/libgsl.so:/system/lib/libgsl.so \
-    vendor/htc/primoc/proprietary/lib/libmm-color-convertor.so:/system/lib/libmm-color-convertor.so \
-    vendor/htc/primoc/proprietary/lib/libmmosal.so:/system/lib/libmmosal.so \
-    vendor/htc/primoc/proprietary/lib/libmmparser.so:/system/lib/libmmparser.so \
-    vendor/htc/primoc/proprietary/lib/libmmparser_divxdrmlib.so:/system/lib/libmmparser_divxdrmlib.so \
     vendor/htc/primoc/proprietary/lib/libsc-a2xx.so:/system/lib/libsc-a2xx.so \
-    vendor/htc/primoc/proprietary/lib/libv8.so:/system/lib/libv8.so \
     vendor/htc/primoc/proprietary/bin/bma150_usr:/system/bin/bma150_usr \
     vendor/htc/primoc/proprietary/bin/logcat2:/system/bin/logcat2 \
     vendor/htc/primoc/proprietary/bin/rmt_storage:/system/bin/rmt_storage \
     vendor/htc/primoc/proprietary/bin/zcb:/system/bin/zcb \
-    vendor/htc/primoc/proprietary/lib/libC2D2.so:/system/lib/libC2D2.so \
     vendor/htc/primoc/proprietary/lib/libgemini.so:/system/lib/libgemini.so \
-    vendor/htc/primoc/proprietary/lib/libgsl.so:/system/lib/libgsl.so \
     vendor/htc/primoc/proprietary/lib/libOlaEngine.so:system/lib/libOlaEngine.so \
-    vendor/htc/primoc/proprietary/lib/libOpenVG.so:/system/lib/libOpenVG.so \
     vendor/htc/primoc/proprietary/lib/libposteffect.so:/system/lib/libposteffect.so \
-    vendor/htc/primoc/proprietary/lib/libsc-a2xx.so:/system/lib/libsc-a2xx.so \
     vendor/htc/primoc/proprietary/lib/libhardware_legacy.so:/system/lib/libhardware_legacy.so \
     vendor/htc/primoc/proprietary/lib/libv8.so:system/lib/libv8.so
 	
