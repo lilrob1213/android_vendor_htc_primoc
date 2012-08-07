@@ -31,9 +31,9 @@ PRODUCT_COPY_FILES += \
     vendor/htc/primoc/proprietary/etc/firmware/default.acdb:system/etc/firmware/default.acdb \
     vendor/htc/primoc/proprietary/etc/firmware/default_org.acdb:system/etc/firmware/default_org.acdb \
     vendor/htc/primoc/proprietary/etc/firmware/default_org_wb.acdb:system/etc/firmware/default_org_wb.acdb \
-	vendor/htc/primoc/proprietary/lib/libwvdrm_L3.so:system/lib/libwvdrm_L3.so \
+    vendor/htc/primoc/proprietary/lib/libwvdrm_L3.so:system/lib/libwvdrm_L3.so \
     vendor/htc/primoc/proprietary/lib/libwvm.so:system/lib/libwvm.so \
-    vendor/htc/primoc/proprietary/lib/libaudioflinger.so:/system/lib/libaudioflinger.so
+    vendor/htc/primoc/proprietary/lib/libaudioflinger.so:system/lib/libaudioflinger.so
 	
 # Wifi/BT firmware
 PRODUCT_COPY_FILES += \
@@ -50,7 +50,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/primoc/proprietary/etc/firmware/fw_bcm4330_p2p_b2.bin:system/etc/firmware/fw_bcm4330_p2p_b2.bin \
     vendor/htc/primoc/proprietary/etc/firmware/fw_bcm4330_p2p_b2.bin:system/vendor/firmware/fw_bcm4330_p2p_b2.bin \
     vendor/htc/primoc/proprietary/etc/firmware/fw_bcm4330_p2p_b1.bin:system/etc/firmware/fw_bcm4330_p2p_b1.bin \
-	vendor/htc/primoc/proprietary/etc/calibration:system/etc/calibration \
+    vendor/htc/primoc/proprietary/etc/calibration:system/etc/calibration \
     vendor/htc/primoc/proprietary/etc/firmware/fw_bcm4330_p2p_b1.bin:system/vendor/firmware/fw_bcm4330_p2p_b1.bin
 	
 # HW files
@@ -105,16 +105,16 @@ PRODUCT_COPY_FILES += \
     vendor/htc/primoc/proprietary/lib/libnetmgr.so:/system/lib/libnetmgr.so \
     vendor/htc/primoc/proprietary/lib/libdsutils.so:/system/lib/libdsutils.so \
     vendor/htc/primoc/proprietary/lib/libqdp.so:/system/lib/libqdp.so \
-	vendor/htc/primoc/proprietary/lib/libril.so:/system/lib/libril.so \
+    vendor/htc/primoc/proprietary/lib/libril.so:/system/lib/libril.so \
     vendor/htc/primoc/proprietary/lib/libhtc_ril.so:/system/lib/libhtc_ril.so
 
 # EGL
 PRODUCT_COPY_FILES += \
     vendor/htc/primoc/proprietary/lib/egl/eglsubAndroid.so:/system/lib/egl/eglsubAndroid.so \
-	vendor/htc/primoc/proprietary/lib/egl/libEGL_adreno200.so:/system/lib/egl/libEGL_adreno200.so \
-	vendor/htc/primoc/proprietary/lib/egl/libGLESv1_CM_adreno200.so:/system/lib/egl/libGLESv1_CM_adreno200.so \
-	vendor/htc/primoc/proprietary/lib/egl/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
-	vendor/htc/primoc/proprietary/lib/egl/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so
+    vendor/htc/primoc/proprietary/lib/egl/libEGL_adreno200.so:/system/lib/egl/libEGL_adreno200.so \
+    vendor/htc/primoc/proprietary/lib/egl/libGLESv1_CM_adreno200.so:/system/lib/egl/libGLESv1_CM_adreno200.so \
+    vendor/htc/primoc/proprietary/lib/egl/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \ 
+    vendor/htc/primoc/proprietary/lib/egl/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so
 
 # Random Crap..Verify necessity 
 PRODUCT_COPY_FILES += \
