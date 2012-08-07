@@ -60,7 +60,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/primoc/proprietary/lib/hw/audio.primary.msm7x30.so:system/lib/hw/audio.primary.msm7x30.so \
     vendor/htc/primoc/proprietary/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
     vendor/htc/primoc/proprietary/lib/hw/camera.default.so:system/lib/hw/camera.default.so
-	
+
 # EGL
 PRODUCT_COPY_FILES += \
     vendor/htc/primoc/proprietary/lib/egl/eglsubAndroid.so:/system/lib/egl/eglsubAndroid.so \
@@ -113,7 +113,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/primoc/proprietary/lib/egl/eglsubAndroid.so:/system/lib/egl/eglsubAndroid.so \
     vendor/htc/primoc/proprietary/lib/egl/libEGL_adreno200.so:/system/lib/egl/libEGL_adreno200.so \
     vendor/htc/primoc/proprietary/lib/egl/libGLESv1_CM_adreno200.so:/system/lib/egl/libGLESv1_CM_adreno200.so \
-    vendor/htc/primoc/proprietary/lib/egl/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \ 
+    vendor/htc/primoc/proprietary/lib/egl/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
     vendor/htc/primoc/proprietary/lib/egl/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so
 
 # Random Crap..Verify necessity 
