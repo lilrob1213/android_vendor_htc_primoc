@@ -73,7 +73,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/primoc/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
     vendor/htc/primoc/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
     vendor/htc/primoc/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
-    vendor/htc/primoc/proprietary/lib/libcentralZoomTransition.so:system/lib/libcentralZoomTransition.so \  
+    vendor/htc/primoc/proprietary/lib/libcentralZoomTransition.so:system/lib/libcentralZoomTransition.so \
     vendor/htc/primoc/proprietary/lib/libchromatix_s5k4e5yx_default_video.so:system/lib/libchromatix_s5k4e5yx_default_video.so \
     vendor/htc/primoc/proprietary/lib/libchromatix_s5k4e5yx_hdr.so:system/lib/libchromatix_s5k4e5yx_hdr.so \
     vendor/htc/primoc/proprietary/lib/libchromatix_s5k4e5yx_hfr.so:system/lib/libchromatix_s5k4e5yx_hfr.so \
