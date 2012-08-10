@@ -95,15 +95,15 @@ PRODUCT_COPY_FILES += \
 # Ril
 PRODUCT_COPY_FILES += \
     vendor/htc/primoc/proprietary/lib/libdiag.so:/system/lib/libdiag.so \
-    vendor/htc/primoc/proprietary/lib/libdll.so:/system/lib/libdll.so \    
-    vendor/htc/primoc/proprietary/lib/libdsi_netctrl.so:/system/lib/libdsi_netctrl.so \    
+    vendor/htc/primoc/proprietary/lib/libdll.so:/system/lib/libdll.so \
+    vendor/htc/primoc/proprietary/lib/libdsi_netctrl.so:/system/lib/libdsi_netctrl.so \
     vendor/htc/primoc/proprietary/lib/libdsutils.so:/system/lib/libdsutils.so \
     vendor/htc/primoc/proprietary/lib/libhtc_ril.so:/system/lib/libhtc_ril.so \
     vendor/htc/primoc/proprietary/lib/libidl.so:/system/lib/libidl.so \
     vendor/htc/primoc/proprietary/lib/libnetmgr.so:/system/lib/libnetmgr.so \
     vendor/htc/primoc/proprietary/lib/libril.so:/system/lib/libril.so \
     vendor/htc/primoc/proprietary/lib/libqdp.so:/system/lib/libqdp.so \
-    vendor/htc/primoc/proprietary/lib/libqmi.so:/system/lib/libqmi.so        
+    vendor/htc/primoc/proprietary/lib/libqmi.so:/system/lib/libqmi.so
 
 # Because I see it everywhere else
 PRODUCT_COPY_FILES += \
