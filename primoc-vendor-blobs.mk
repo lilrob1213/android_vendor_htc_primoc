@@ -105,6 +105,11 @@ PRODUCT_COPY_FILES += \
     vendor/htc/primoc/proprietary/lib/libqdp.so:/system/lib/libqdp.so \
     vendor/htc/primoc/proprietary/lib/libqmi.so:/system/lib/libqmi.so
 
+# OMX
+PRODUCT_COPY_FILES += \
+    vendor/htc/primoc/proprietary/lib/libQcomUI.so:system/lib/libQcomUI.so \
+    vendor/htc/primoc/proprietary/lib/libtilerenderer.so:system/lib/libtilrenderer.so
+
 # Because I see it everywhere else
 PRODUCT_COPY_FILES += \
     vendor/htc/primoc/proprietary/bin/bma150_usr:/system/bin/bma150_usr \
@@ -125,11 +130,4 @@ PRODUCT_COPY_FILES += \
     vendor/htc/primoc/proprietary/lib/hw/audio.a2dp.default.so:system/lib/hw/audio.a2dp.default.so \
     vendor/htc/primoc/proprietary/lib/hw/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
     vendor/htc/primoc/proprietary/lib/hw/audio.primary.msm7x30.so:system/lib/hw/audio.primary.msm7x30.so \
-    vendor/htc/primoc/proprietary/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
-	vendor/htc/primoc/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
-    vendor/htc/primoc/proprietary/lib/libOmxCore.so:system/lib/libOmxCore.so \
-    vendor/htc/primoc/proprietary/lib/libOmxVdec.so:system/lib/libOmxVdec.so \
-    vendor/htc/primoc/proprietary/lib/libOmxVenc.so:system/lib/libOmxVenc.so \
-    vendor/htc/primoc/proprietary/lib/libQcomUI.so:system/lib/libQcomUI.so \
-    vendor/htc/primoc/proprietary/lib/libtilerenderer.so:system/lib/libtilrenderer.so \
     vendor/htc/primoc/proprietary/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so
