@@ -22,8 +22,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/htc/primoc/proprietary/lib/libaudioalsa.so:/system/lib/libaudioalsa.so \
     vendor/htc/primoc/proprietary/lib/libhtc_acoustic.so:/system/lib/libhtc_acoustic.so \
-    vendor/htc/primoc/proprietary/lib/libwvm.so:system/lib/libwvm.so \
-    vendor/htc/primoc/proprietary/lib/libwvdrm_L3.so:system/lib/libwvdrm_L3.so \
     vendor/htc/primoc/proprietary/etc/AdieHWCodec.csv:system/etc/AdieHWCodec.csv \
     vendor/htc/primoc/proprietary/etc/AIC3254_REG.csv:system/etc/AIC3254_REG.csv \
     vendor/htc/primoc/proprietary/etc/AudioBTID.csv:system/etc/AudioBTID.csv \
@@ -36,20 +34,13 @@ PRODUCT_COPY_FILES += \
 # Wifi/BT firmware
 PRODUCT_COPY_FILES += \
     vendor/htc/primoc/proprietary/etc/calibration:system/etc/calibration \
-    vendor/htc/primoc/proprietary/etc/firmware/bcm4330.hcd:system/vendor/firmware/bcm4330.hcd \
     vendor/htc/primoc/proprietary/etc/firmware/bcm4330.hcd:system/etc/firmware/bcm4330.hcd \
     vendor/htc/primoc/proprietary/etc/firmware/fw_bcm4330_apsta_b1.bin:system/etc/firmware/fw_bcm4330_apsta_b1.bin \
-    vendor/htc/primoc/proprietary/etc/firmware/fw_bcm4330_apsta_b1.bin:system/vendor/firmware/fw_bcm4330_apsta_b1.bin \
     vendor/htc/primoc/proprietary/etc/firmware/fw_bcm4330_apsta_b2.bin:system/etc/firmware/fw_bcm4330_apsta_b2.bin \
-    vendor/htc/primoc/proprietary/etc/firmware/fw_bcm4330_apsta_b2.bin:system/vendor/firmware/fw_bcm4330_apsta_b2.bin \
     vendor/htc/primoc/proprietary/etc/firmware/fw_bcm4330_b2.bin:system/etc/firmware/fw_bcm4330_b2.bin \
-    vendor/htc/primoc/proprietary/etc/firmware/fw_bcm4330_b2.bin:system/vendor/firmware/fw_bcm4330_b2.bin \
     vendor/htc/primoc/proprietary/etc/firmware/fw_bcm4330_b1.bin:system/etc/firmware/fw_bcm4330_b1.bin \
-    vendor/htc/primoc/proprietary/etc/firmware/fw_bcm4330_b1.bin:system/vendor/firmware/fw_bcm4330_b1.bin \
     vendor/htc/primoc/proprietary/etc/firmware/fw_bcm4330_p2p_b2.bin:system/etc/firmware/fw_bcm4330_p2p_b2.bin \
-    vendor/htc/primoc/proprietary/etc/firmware/fw_bcm4330_p2p_b2.bin:system/vendor/firmware/fw_bcm4330_p2p_b2.bin \
-    vendor/htc/primoc/proprietary/etc/firmware/fw_bcm4330_p2p_b1.bin:system/etc/firmware/fw_bcm4330_p2p_b1.bin \
-    vendor/htc/primoc/proprietary/etc/firmware/fw_bcm4330_p2p_b1.bin:system/vendor/firmware/fw_bcm4330_p2p_b1.bin  
+    vendor/htc/primoc/proprietary/etc/firmware/fw_bcm4330_p2p_b1.bin:system/etc/firmware/fw_bcm4330_p2p_b1.bin
 
 # QCOM Drivers
 PRODUCT_COPY_FILES += \
@@ -123,11 +114,6 @@ PRODUCT_COPY_FILES += \
 
 # Temp because I'm an idiot
 PRODUCT_COPY_FILES += \
-    vendor/htc/primoc/proprietary/etc/audio_effects.conf.csv:system/etc/audio_effects.conf \
-    vendor/htc/primoc/proprietary/lib/libaudioflinger.so:system/lib/libaudioflinger.so \
     vendor/htc/primoc/proprietary/lib/libhardware_legacy.so:/system/lib/libhardware_legacy.so \
     vendor/htc/primoc/proprietary/lib/hw/hwcomposer.msm7x30.so:system/lib/hw/hwcomposer.msm7x30.so \
-    vendor/htc/primoc/proprietary/lib/hw/audio.a2dp.default.so:system/lib/hw/audio.a2dp.default.so \
-    vendor/htc/primoc/proprietary/lib/hw/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
-    vendor/htc/primoc/proprietary/lib/hw/audio.primary.msm7x30.so:system/lib/hw/audio.primary.msm7x30.so \
-    vendor/htc/primoc/proprietary/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so
+    vendor/htc/primoc/proprietary/lib/hw/audio.primary.msm7x30.so:system/lib/hw/audio.primary.msm7x30.so
