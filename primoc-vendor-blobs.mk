@@ -80,6 +80,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/primoc/proprietary/lib/libmmparser_lite.so:system/lib/libmmparser_lite.so \
     vendor/htc/primoc/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/htc/primoc/proprietary/lib/liboemcamera.so:/system/lib/liboemcamera.so \
+    vendor/htc/primoc/proprietary/lib/libsurfaceflinger_client.so:/system/lib/libsurfaceflinger_client.so \
     vendor/htc/primoc/proprietary/lib/libzoomTransition.so:system/lib/libzoomTransition.so \
     vendor/htc/primoc/proprietary/lib/hw/camera.default.so:system/lib/hw/camera.default.so 
 
