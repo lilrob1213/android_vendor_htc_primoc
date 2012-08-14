@@ -114,4 +114,5 @@ PRODUCT_COPY_FILES += \
 
 # Temp because I'm an idiot
 PRODUCT_COPY_FILES += \
-    vendor/htc/primoc/proprietary/lib/libhardware_legacy.so:/system/lib/libhardware_legacy.so
+    vendor/htc/primoc/proprietary/lib/libhardware_legacy.so:/system/lib/libhardware_legacy.so \
+    vendor/htc/primoc/proprietary/lib/hw/hwcomposer.msm7x30.so:/system/lib/hw/hwcomposer.msm7x30.so
