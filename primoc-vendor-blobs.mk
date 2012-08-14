@@ -99,7 +99,7 @@ PRODUCT_COPY_FILES += \
 # OMX
 PRODUCT_COPY_FILES += \
     vendor/htc/primoc/proprietary/lib/libQcomUI.so:system/lib/libQcomUI.so \
-    vendor/htc/primoc/proprietary/lib/libtilerenderer.so:system/lib/libtilrenderer.so
+    vendor/htc/primoc/proprietary/lib/libtilerenderer.so:system/lib/libtilerenderer.so
 
 # Because I see it everywhere else
 PRODUCT_COPY_FILES += \
