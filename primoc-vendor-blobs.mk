@@ -32,9 +32,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/primoc/proprietary/etc/firmware/default_org.acdb:system/etc/firmware/default_org.acdb \
     vendor/htc/primoc/proprietary/etc/firmware/default_org_wb.acdb:system/etc/firmware/default_org_wb.acdb \
     vendor/htc/primoc/proprietary/lib/libwvdrm_L3.so:system/lib/libwvdrm_L3.so \
-    vendor/htc/primoc/proprietary/lib/libwvm.so:system/lib/libwvm.so \
-    vendor/htc/primoc/proprietary/lib/libaudioflinger.so:system/lib/libaudioflinger.so
-
+    vendor/htc/primoc/proprietary/lib/libwvm.so:system/lib/libwvm.so
+	
 # Wifi/BT firmware
 PRODUCT_COPY_FILES += \
     vendor/htc/primoc/proprietary/etc/firmware/bcm4330.hcd:system/vendor/firmware/bcm4330.hcd \
@@ -53,7 +52,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/primoc/proprietary/etc/calibration:system/etc/calibration \
     vendor/htc/primoc/proprietary/etc/firmware/fw_bcm4330_p2p_b1.bin:system/vendor/firmware/fw_bcm4330_p2p_b1.bin \
     vendor/htc/primoc/proprietary/bin/hostapd:system/bin/hostapd
-
+	
 # HW files
 PRODUCT_COPY_FILES += \
     vendor/htc/primoc/proprietary/lib/hw/audio.a2dp.default.so:system/lib/hw/audio.a2dp.default.so \
@@ -110,5 +109,4 @@ PRODUCT_COPY_FILES += \
     vendor/htc/primoc/proprietary/lib/libgemini.so:/system/lib/libgemini.so \
     vendor/htc/primoc/proprietary/lib/libOlaEngine.so:system/lib/libOlaEngine.so \
     vendor/htc/primoc/proprietary/lib/libposteffect.so:/system/lib/libposteffect.so \
-    vendor/htc/primoc/proprietary/lib/libhardware_legacy.so:/system/lib/libhardware_legacy.so \
-    vendor/htc/primoc/proprietary/lib/libv8.so:system/lib/libv8.so \
+    vendor/htc/primoc/proprietary/lib/libhardware_legacy.so:/system/lib/libhardware_legacy.so  
