@@ -30,8 +30,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/primoc/proprietary/etc/TPA2051_CFG.csv:system/etc/TPA2051_CFG.csv \
     vendor/htc/primoc/proprietary/etc/firmware/default.acdb:system/etc/firmware/default.acdb \
     vendor/htc/primoc/proprietary/etc/firmware/default_org.acdb:system/etc/firmware/default_org.acdb \
-    vendor/htc/primoc/proprietary/etc/firmware/default_org_wb.acdb:system/etc/firmware/default_org_wb.acdb \
-    vendor/htc/primoc/proprietary/lib/libwvm.so:system/lib/libwvm.so
+    vendor/htc/primoc/proprietary/etc/firmware/default_org_wb.acdb:system/etc/firmware/default_org_wb.acdb
 	
 # Wifi/BT firmware
 PRODUCT_COPY_FILES += \
