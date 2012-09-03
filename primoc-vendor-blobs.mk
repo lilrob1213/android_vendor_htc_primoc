@@ -55,11 +55,7 @@ PRODUCT_COPY_FILES += \
 	
 # HW files
 PRODUCT_COPY_FILES += \
-    vendor/htc/primoc/proprietary/lib/hw/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
-    vendor/htc/primoc/proprietary/lib/hw/audio.primary.msm7x30.so:system/lib/hw/audio.primary.msm7x30.so \
-    vendor/htc/primoc/proprietary/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
-    vendor/htc/primoc/proprietary/lib/hw/hwcomposer.msm7x30.so:system/lib/hw/hwcomposer.msm7x30.so \
-    vendor/htc/primoc/proprietary/lib/hw/lights.primoc.so:system/lib/hw/lights.primoc.so \
+    vendor/htc/primoc/proprietary/lib/hw/hwcomposer.msm7x30.so:system/lib/hw/hwcomposer.msm7x30.so
 
 # Camera
 PRODUCT_COPY_FILES += \
