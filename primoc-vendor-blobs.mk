@@ -61,11 +61,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/primoc/proprietary/lib/libmmcamera_rawchipproc.so:system/lib/libmmcamera_rawchipproc.so \
     vendor/htc/primoc/proprietary/lib/libmmipl.so:/system/lib/libmmipl.so \
     vendor/htc/primoc/proprietary/lib/libmmjpeg.so:/system/lib/libmmjpeg.so \
-    vendor/htc/primoc/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
-    vendor/htc/primoc/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
-    vendor/htc/primoc/proprietary/lib/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so \
     vendor/htc/primoc/proprietary/lib/libmmparser_lite.so:system/lib/libmmparser_lite.so \
-    vendor/htc/primoc/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/htc/primoc/proprietary/lib/liboemcamera.so:/system/lib/liboemcamera.so \
     vendor/htc/primoc/proprietary/lib/libsurfaceflinger_client.so:/system/lib/libsurfaceflinger_client.so \
     vendor/htc/primoc/proprietary/lib/libzoomTransition.so:system/lib/libzoomTransition.so \
