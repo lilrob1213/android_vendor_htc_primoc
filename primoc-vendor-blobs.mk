@@ -22,7 +22,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/htc/primoc/proprietary/lib/libaudioalsa.so:/system/lib/libaudioalsa.so \
     vendor/htc/primoc/proprietary/lib/libhtc_acoustic.so:/system/lib/libhtc_acoustic.so \
-    vendor/htc/primoc/proprietary/etc/AdieHWCodec.csv:system/etc/AdieHWCodec.csv \
     vendor/htc/primoc/proprietary/etc/AIC3254_REG.csv:system/etc/AIC3254_REG.csv \
     vendor/htc/primoc/proprietary/etc/AudioBTID.csv:system/etc/AudioBTID.csv \
     vendor/htc/primoc/proprietary/etc/CodecDSPID.txt:system/etc/CodecDSPID.txt \
