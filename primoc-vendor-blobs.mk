@@ -68,7 +68,6 @@ PRODUCT_COPY_FILES += \
 
 # Ril
 PRODUCT_COPY_FILES += \
-    vendor/htc/primoc/proprietary/lib/libdiag.so:/system/lib/libdiag.so \
     vendor/htc/primoc/proprietary/lib/libdll.so:/system/lib/libdll.so \
     vendor/htc/primoc/proprietary/lib/libdsi_netctrl.so:/system/lib/libdsi_netctrl.so \
     vendor/htc/primoc/proprietary/lib/libdsutils.so:/system/lib/libdsutils.so \
